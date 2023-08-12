@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TummyTaxi</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="icon" href="../img/Screenshot 2023-07-30 130605.png">
+</head>
+<body>
+    <header>
+        <nav class="navegation-bar">
+            <a href="index.html" style="text-decoration: none;">
+                <div class="logo">
+                    <img src="../img/Screenshot 2023-07-30 130605.png" alt="" id="logo">
+                <span id="logo-name">TummyTaxi</span>
+                </div>
+            </a>
+            
+            <ul id="links">
+                <li><a class="textlinks" href="index.html">Home</a></li>
+                <li><a class="textlinks" href="index.html#about">About Us</a></li>
+                <li><a class="textlinks" href="contact.html">Contact</a></li>
+                <li><a class="textlinks" href="login.html">Login / Signup</a></li>
+               <div>
+                <ul class="innerlinks">
+                    <li title="Home"><a href="index.html"><i class="fa-solid fa-house mediaicon"></i></a></li>
+                    <li title="About Us"><a href="index.html#about"><i class="fa-regular fa-address-card mediaicon"></i></a></li>
+                    <li title="Contact"><a href="contact.html"><i class="fa-solid fa-address-book mediaicon"></i></a></li>
+                    <li title="Login"><a href="login.html"><i class="fa-solid fa-user-plus mediaicon"></i></a></li>
+                </ul>
+               </div>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- cartpage -->
+
+    <h1 class="head-cart">Cart</h1>
+
+    <div class="cart-table">
+        <table>
+            <tr>
+                <th>Meal</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td class="table-da">
+                    <div class="meal-info">
+                        <img src="../img/Shawerma.jpg" alt="" id="meal-pic">
+                        <div>
+                            <p>Shawerma</p>
+                        </div>
+                    </div>
+                </td>
+                <td>10.00$</td>
+                <td><input type="number" name="" id="num" value="1"></td>
+                <td>20.00$</td>
+            </tr>
+            <tr>
+                <td class="table-da">
+                    <div class="meal-info">
+                        <img src="../img/burger.jpg" alt="" id="meal-pic">
+                        <div>
+                            <p>burger</p>
+                        </div>
+                    </div>
+                </td>
+                <td>30.00$</td>
+                <td><input type="number" name="" id="num" value="1"></td>
+                <td>60.00$</td>
+            </tr>
+            <tr>
+                <td class="table-da">
+                    <div class="meal-info">
+                        <img src="../img/fries.webp" alt="" id="meal-pic">
+                        <div>
+                            <p>fries</p>
+                        </div>
+                    </div>
+                </td>
+                <td>10.00$</td>
+                <td><input type="number" name="" id="num" value="1"></td>
+                <td>20.00$</td>
+            </tr>
+            <tr>
+                <td class="table-da">
+                    <div class="meal-info">
+                        <img src="../img/steak2.jpg" alt="" id="meal-pic">
+                        <div>
+                            <p>steak</p>
+                        </div>
+                    </div>
+                </td>
+                <td>100.00$</td>
+                <td><input type="number" name="" id="num" value="1"></td>
+                <td>200.00$</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="button">
+        
+            <button id="but-con">
+                <span><i class="fa-solid fa-arrow-left"></i></span>
+                <a href="menu.html" style="text-decoration: none; color: white;">Continue Shopping</a>
+            </button>
+        
+        
+        <button id="but-con">
+            <i class="fa-solid fa-trash"></i> Empty Shopping Cart
+        </button>
+    </div>
+    <div class="check">
+        <a href="payment.html">
+            <button id="but-chc">
+                Checkout
+            </button>
+        </a>
+        
+    </div>
+
+    <!-- endcartpage -->
+
+    <div class="footer">
+        <div class="foot-links">
+                <ul id="links1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login / Signup</a></li>
+                </ul>
+        </div>
+
+        <div class="foot-socail">
+            <span id="foll">Follow Us On</span>
+            <i class="fa-brands fa-facebook" id="fac-ic"></i>
+            <i class="fa-brands fa-instagram" id="fac-ic"></i>
+            <i class="fa-brands fa-twitter" id="fac-ic"></i>
+        </div>
+
+        <div class="copy-right">
+            <div class="co-ri">
+                <span>TummyTaxi&copy; 2022 All rights reserved</span>
+            </div>        
+        </div>
+    </div>
+</body>
+</html>
